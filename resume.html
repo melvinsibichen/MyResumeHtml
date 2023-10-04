@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -105,6 +106,7 @@
                 <td>MG University</td>
                 <td>Rajagiri college of social sciences</td>
                 <td>2022</td>
+                <!--2nd page link-->
                 <td><a href="./Page2project.html"> Assignment Evaluation</td></a>
             </tr>
             <tr>
@@ -160,7 +162,86 @@
         <li>Malayalam</li>
         <li>Tamil</li>
     </ul>
+    <!----------------------------------------------------------------------------------------------------------------->
+    <!--I frame Example-->
+    <h2>
+        <div style="background-color:gray;color:white;padding:1px;">
+            I Frame
+    </h2>
+    <p><a href="https://www.w3schools.com" target="iframe_a">W3Schools.com</a></p>
+    <iframe src="https://getbootstrap.com/" height="400" width="800" title="IframeExample"></iframe>
+    <!--Media tags Example-->
+    <h2>
+        <div style="background-color:gray;color:white;padding:1px;">
+            Media Tags
+    </h2>
+    <!--picture tag-->
+    <h2>Picture tag</h2>
+    <picture>
+        <source media="(min-width:767px)" srcset="https://cdn.pixabay.com/photo/2013/07/21/13/00/rose-165819_640.jpg">
+        <source media="(min-width:991px)"
+            srcset="https://thumbs.dreamstime.com/b/aster-flowers-art-design-26968847.jpg">
+        <img src="https://wallpapers.com/images/featured/flower-pictures-unpxbv1q9kxyqr1d.jpg" alt="Flowers"
+            style="width:80%;">
+    </picture>
+    <!--video tag-->
+    <h2>Video tag</h2>
+    <video width="600" height="300" controls>
+        <source src="./video/cute_cat_relax_on_outdoor_ground_6892533.mp4" type="video/mp4">
+        <source src="./video/big_buck_bunny_720p_2mb.mkv" type="video/mkv">
+        Your browser does not support the video tag.
+    </video>
+    <!--Audio Tag-->
+    <h2>Audio Tag</h2>
+    <audio controls>
+        <source src="./audio/baby-mandala-169039.mp3" type="audio/mpeg">
+        <source src="./audio/file_example_OOG_1MG.ogg" type="audio/ogg">
+        Your browser does not support the audio tag.
+    </audio>
+    <!--Forms-->
+    <h2>
+        <div style="background-color:gray;color:white;padding:1px;">Forms
+    </h2>
+   
+    <h2>Registration Form</h2>
+    <div >
+    <form >
+        <label>First name</label><br>
+        <input type="text" placeholder="first name"><br><br>
+        <label>Last name</label><br>
+        <input type="text" placeholder="last name"><br><br>
+        <label>Email</label><br>
+        <input type="email" placeholder="email"><br><br>
+        <!--dropdown-->
+        <label for="">Nationality</label><br>
+        <select>
+            <option value="">India</option>
+            <option value="">China</option>
+            <option value="">Europe</option>
+        </select><br><br>
+        <!--checkbox-->
+        <label for="">Languages:</label> <br>
+        <input type="checkbox">
+        <label for="">English</label>
+        <input type="checkbox">
+        <label for="">Malayalam</label>
+        <input type="checkbox">
+        <label for="">Hindi</label>
+        <input type="checkbox">
+        <label for="">Tamil</label><br><br>
+        <!--Radio button-->
+        <label>Gender:</label><br>
+        <input type="radio" name="Gender">
+        <label>Male</label><br>
+        <input type="radio" name="Gender">
+        <label>female</label><br>
+        <br>
+        <!--textarea-->
+        <label for="">Address:</label><br>
+        <textarea name="" id="" cols="30" rows="5"></textarea><br><br>
+        <!--button-->
+        <input type="button" value="Submit">
+    </form>
 
 </body>
-
 </html>
